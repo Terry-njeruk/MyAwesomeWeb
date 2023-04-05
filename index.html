@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/0832b2efbd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="cointainer">
+            <nav>
+                <img src="images/LOGO.jpg"class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa_solid fa_xmark"oneclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-xmark"oneclick="openmenu()"></i>
+            </nav>
+         <div class="header-text">
+           <p>Back end and front end web designer and<br> developer.</p>
+            <hi>Hi. I,m Terry<span> Njeru</span><br>from Kenya</h1>
+         </div>
+      </div>
+      <div class="flowers">
+       <img src="images/flower.jpg" >
+       <img src="images/flower.jpg" >
+       <img src="images/flower.jpg" >
+       <img src="images/flower.jpg" >
+       <img src="images/flower.jpg" >
+       <img src="images/flower.jpg" >
+       <img src="images/flower.jpg" >
+      </div>
+    </div>  
+  <!--about--->
+    <div id="About">
+        <div class="cointainer">
+            <d iv class="row">
+                <div about="about-column-1">
+                   <img src="images/about me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-titles">About me</h1>
+                    <p> My name is Terry Karimi Njeru. I am an IT student at Kenyatta University. Am a front and backend web designer. I have specialized in AI and machine learning. I can offer both hard and soft skills. My objectives are to do my best and give my all to anything i set my focus on. </p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')" >Education</p>
+                     </div>
+                     <div class="tab-contents active-tab " id="skills">
+                        <ul>
+                            <li><span>Front-end developer</span><br>Web development</li>
+                            <li><span>Back-end developer</span><br>Web development</li>
+                            <li><span>App Development</span><br>Building android</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents"  id="Experience">
+                       <ul>
+                        <li><span>2023-current</span></li>
+                        <li><span>2022</span><br>web-development</li>
+                       </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                        <li><span>2021-current</span><br>Bachelors degree student</li>
+                        <li><span>2017-2020</span><br>Secondary education</li>
+                        <li><span>2008-2016</span><br>Primary education</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----services--->
+    <div id="services">
+        <div class="cointainers">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web developer</h2>
+                    <p>Can be intellectually challenging but analytical satisfying</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-discord"></i>
+                    <h2>Front-end developer</h2>
+                    <p>The work done is very challenging and satisfying at the same time <br><br>
+                    Goal:Produce an interesting, attractive and interactive website</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-slack"></i>
+                <h2>Back-end developer</h2>
+                <p>The work done is pretty challeging<br><br>
+                Goal:ensures that all operations done to the website are very interactive and have a fast response time</p>
+                <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>Machine learning</h2>
+                    <p>The work done is also challeging but interesting<br><br>
+                    Goal:It helps create machines that portray humanoid characters by use of algorithms</p>
+                    <a href="#">Learn more</a>
+                </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Development</h2>
+                        <p>The work done is very exciting<br><br>
+                        Goal:Create a friendly and interactive application that is simple and thus used by any generation</p>
+                        <a href="#">Learn more</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+<!-----portfolio----->
+<div id="Portfolio">
+    <div class="cointainers">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.1.jpg">
+                <div class="layer">
+                    <h3>Step Tracker App</h3>
+                    <p>This application is available on Playstore<br>Helps keep track on daily activities when recorded<br> such as number of steps </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.2.jpg">
+                <div class="layer">
+                    <h3>Health Check App</h3>
+                    <p>This application is available on Playstore<br>Helps keep track on daily activities when recorded<br>such as daily water consumption level </p><br>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.3.jpg">
+                <div class="layer">
+                    <h3>Self-test kit App</h3>
+                    <p>This application is available on Playstore<br>Helps keep check and record any signs and symptoms of any disease entered</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----contact---->
+<div id="Contact">
+    <div class="cointainers">
+        <div class="row">
+            <div class="column-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>njeruterry66@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0740669177</p>
+                <div class="Social-icons">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram/it-kish-terry/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="#" class="btn btn2">Download cv</a>
+            </div>
+            <div class="column-right"></div>
+            <form>
+                <input type="text" Name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button> 
+            </form>
+        </div>
+        
+    </div>
+<div class="astronaut">
+    <img src="images/Astronaut.png">
+    <div class="layer1">
+    <h4>Fun fact</h4>
+    <p> Did you know that despite the popular belief that astronauts have to be highly physically fit,<br> NASA has actually sent a few astronauts to space who were not 100% healthy? For example, in 1998, John Glenn returned to space at the age of 77, making him the oldest person to ever fly in space. And in 2007, astronaut Clayton Anderson flew to the International Space Station despite suffering from mild hearing loss. NASA has said that it carefully evaluates the health of all astronauts before sending them to space, but these examples show that perfect health is not always a strict requirement</p>
+    </div>
+</div>
+<div class="copyright">
+    <p>copyright<i class="fa-regular fa-copyright"></i> by Terry<i class="fa-solid fa-t"></i></p>
+</div>
+</div>
+</body>
+    <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        event.currentTarget.classList.add("active-link");
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        document.currentTarget.getElementById(tabname).classList.add("active-tab"); 
+       }
+
+    </script>
+</body>
+</html>
